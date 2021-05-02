@@ -2,6 +2,12 @@ from subprocess import call
 import os
 import socket
 
+# Made by K-S3curity
+# Twitter : @KS3curity
+# Github : https://github.com/K-S3curity
+# If you have any problems or issues with this script, please open an issue on Github
+# Help me improve this script by contributing or giving a star
+
 
 # Colors
 
