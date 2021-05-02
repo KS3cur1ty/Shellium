@@ -1,6 +1,6 @@
 # Shellium
 Shellium is an Interactive Reverse Shell generator.
-
+- [Features](#Features)
 - [Installation](#Installation)
   - [On Linux/MacOS](#On-Linux/MacOS)
   - [On Windows](#On-Windows)
@@ -8,6 +8,13 @@ Shellium is an Interactive Reverse Shell generator.
 - [Author](#Author)
 - [License](#License)
 
+# Features
+
+- Supports IPv4 and IPv6
+- IPv4 and IPv6 format validation
+- Port number validation
+- Colored text
+- Supported Reverse Shells : Bash, Python2 & Python3, PHP, Perl, Java, Netcat, and Ruby
 
 # Installation
 ## On Linux/MacOS

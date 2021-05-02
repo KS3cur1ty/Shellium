@@ -81,6 +81,14 @@ def java_rs():
 
 global menu
 def menu():
+    
+    # Clear screen
+
+    if 'nt' in os.name:
+        call("cls")
+    else:
+        call("clear")
+
     print("Choose the Reverse Shell you want to generate : ")
     print(ANSI.cyan_color() + """
     1 - Bash Reverse Shell
