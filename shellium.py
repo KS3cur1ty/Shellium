@@ -309,7 +309,7 @@ def main_menu():
             print(ANSI.yellow_color() + "\nProcess manually aborted by user")
 
         try:
-            ANSI.green_color(call(nc, shell=True))
+            call(nc, shell=True)
         except KeyboardInterrupt:
             print(ANSI.yellow_color() + "\nProcess manually aborted by user")
 
